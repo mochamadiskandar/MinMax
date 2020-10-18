@@ -1,0 +1,38 @@
+* {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+body {
+  margin: 20px;
+}
+
+input {
+  text-align: center;
+  width: 150px;
+  /* border-radius: 6px; */
+  padding: 10px;
+  margin-right: 6px;
+  opacity: 0.6;
+}
+
+input:focus {
+  /* background-color: salmon; */
+  opacity: 0.8;
+}
+
+button {
+  background-color: #1b9cfc;
+  color: black;
+  border: 1px solid #1b9cfc;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100px;
+  padding: 10px;
+  margin-right: 6px;
+  margin-top: 10px;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
